@@ -1,0 +1,25 @@
+{
+  "name": "react-native-hotspot",
+  "version": "0.0.1",
+  "description": "A React Native component that displays hotspots over desired components to help lead your users through an onboarding flow or direct them towards new UI elements",
+  "license": "MIT",
+  "author": "Michael Lefkowitz <lefkowitz.michael@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lawnstarter/react-native-hotspot.git"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "hotspot",
+    "tutorial",
+    "onboarding",
+    "react",
+    "react-native",
+    "react native",
+    "expo"
+  ],
+  "devDependencies": {
+    "react": "16.6.1",
+    "react-native": "0.57.5"
+  }
+}
