@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 export function RNHotspotHelper(actions) {
-  return actions.map(action => {
-    return {
-      ref: React.createRef(),
-      onPress: action
-    };
-  });
+    return actions.map((action) => {
+        return {
+            ref: React.createRef(),
+            onPress: action,
+        };
+    });
 }

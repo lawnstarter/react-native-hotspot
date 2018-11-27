@@ -1,25 +1,37 @@
 {
-  "name": "react-native-hotspot",
-  "version": "0.0.3",
-  "description": "A React Native component that displays hotspots over desired components to help lead your users through an onboarding flow or direct them towards new UI elements",
-  "license": "MIT",
-  "author": "Michael Lefkowitz <lefkowitz.michael@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lawnstarter/react-native-hotspot.git"
-  },
-  "main": "src/index.js",
-  "keywords": [
-    "hotspot",
-    "tutorial",
-    "onboarding",
-    "react",
-    "react-native",
-    "react native",
-    "expo"
-  ],
-  "devDependencies": {
-    "react": "16.6.1",
-    "react-native": "0.57.5"
-  }
+    "name": "react-native-hotspot",
+    "version": "0.0.3",
+    "description": "A React Native component that displays hotspots over desired components to help lead your users through an onboarding flow or direct them towards new UI elements",
+    "license": "MIT",
+    "author": "Michael Lefkowitz <lefkowitz.michael@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lawnstarter/react-native-hotspot.git"
+    },
+    "main": "src/index.js",
+    "keywords": [
+        "hotspot",
+        "tutorial",
+        "onboarding",
+        "react",
+        "react-native",
+        "react native",
+        "expo"
+    ],
+    "devDependencies": {
+        "eslint-config-ls-react": "https://github.com/lawnstarter/eslint-config-ls-react#2.0.3",
+        "husky": "^0.14.3",
+        "prettier": "^1.15.2",
+        "pretty-quick": "^1.8.0",
+        "prop-types": "^15.6.2",
+        "react": "16.6.1",
+        "react-native": "0.57.5"
+    },
+    "scripts": {
+        "precommit": "pretty-quick --staged",
+        "prepush": "echo \"---Running ESLint---\" && eslint src/**",
+        "prettier:debug-check": "prettier --config ./.prettierrc.js --debug-check \"{src,test}/**/*.js\"",
+        "preprettier:all": "yarn run prettier:debug-check",
+        "prettier:all": "prettier --config ./.prettierrc.js --write \"{src,test}/**/*.js\""
+    }
 }

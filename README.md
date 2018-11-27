@@ -8,7 +8,7 @@ A React Native component that displays hotspots over desired components to help 
 
 [Examples](https://github.com/lawnstarter/react-native-hotspot/tree/master/example)
 
-<!-- [Run example](https://snack.expo.io/@lfkwtz/react-native-hotspot) -->
+[Run example](https://snack.expo.io/@lfkwtz/react-native-hotspot)
 
 ## Getting Started
 
