@@ -5,6 +5,7 @@
 A React Native component that displays hotspots over desired components to help lead your users through an onboarding flow or direct them towards new UI elements
 
 <!-- ![iOS Example](./example/ios-example.gif) -->
+<!-- ![Android Example](./example/android-example.gif) -->
 
 [Examples](https://github.com/lawnstarter/react-native-hotspot/tree/master/example)
 
