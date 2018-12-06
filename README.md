@@ -36,7 +36,7 @@ this.componentRefs = RNHotspotHelper([
 <RNHotspot componentRefs={this.componentRefs} />
 
 
-// expose the refs in the same order as the array definied above
+// expose the refs in the same order as the array defined above
 <Button
     title="Button #1"
     onPress={() => {}}
