@@ -55,4 +55,4 @@ This component has been tested on React Native v0.57
 
 ## License
 
-react-native-hotspot is [MIT licensed](https://github.com/lawnstarter/react-native-hotspot/tree/master/LICENSE)
+react-native-hotspot is [MIT licensed](https://github.com/lawnstarter/react-native-hotspot/tree/master/LICENSE) and built with :heart: in Austin, TX by the team at [LawnStarter](https://lawnstarter.com)
