@@ -1,6 +1,6 @@
 {
     "name": "react-native-hotspot",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "A React Native component that displays hotspots over desired components to help lead your users through an onboarding flow or direct them towards new UI elements",
     "license": "MIT",
     "author": "Michael Lefkowitz <lefkowitz.michael@gmail.com>",
@@ -20,11 +20,12 @@
     ],
     "files": [
         "LICENSE",
-        "README.md"
+        "README.md",
+        "src/helper.js",
+        "src/hotspot.js",
+        "src/index.js",
+        "src/pulse.js"
     ],
-    "directories": {
-        "src": "src"
-    },
     "devDependencies": {
         "eslint-config-ls-react": "https://github.com/lawnstarter/eslint-config-ls-react#2.0.3",
         "husky": "^0.14.3",
