@@ -1,6 +1,6 @@
 {
     "name": "react-native-hotspot",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A React Native component that displays hotspots over desired components to help lead your users through an onboarding flow or direct them towards new UI elements",
     "license": "MIT",
     "author": "Michael Lefkowitz <lefkowitz.michael@gmail.com>",

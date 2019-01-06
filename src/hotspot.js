@@ -1,10 +1,15 @@
 import React, { PureComponent } from 'react';
 import { findNodeHandle } from 'react-native';
+import PropTypes from 'prop-types';
 import { Pulse } from './';
 
 const RCTUIManager = require('NativeModules').UIManager;
 
 export class RNHotspot extends PureComponent {
+    static propTypes = {
+        componentRefs: PropTypes.array.isRequired,
+    };
+
     constructor(props) {
         super(props);
 
@@ -58,6 +63,7 @@ export class RNHotspot extends PureComponent {
 
     render() {
         const { hotspots } = this.state;
+        const { componentRefs, ...otherProps } = this.props;
 
         if (!hotspots) {
             return null;
@@ -70,6 +76,7 @@ export class RNHotspot extends PureComponent {
                     idx={idx}
                     dimensions={{ width, height, pageX, pageY }}
                     onPress={this.onPress}
+                    {...otherProps}
                 />
             );
         });

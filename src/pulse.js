@@ -2,10 +2,6 @@ import React, { PureComponent } from 'react';
 import { Animated, Easing, StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
 import PropTypes from 'prop-types';
 
-// https://github.com/facebook/react-native/issues/8968#issuecomment-314322836
-// Android currently has a limitation where the parent component will restrict the full radius
-// of the pulse.
-
 export class Pulse extends PureComponent {
     static propTypes = {
         dimensions: PropTypes.shape({
