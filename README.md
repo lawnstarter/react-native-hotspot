@@ -25,6 +25,8 @@ import { RNHotspot, RNHotspotHelper } from "react-native-hotspot";
 // in your screen's constructor, use the helper with an array of onPress actions you want your hotspots to trigger
 this.componentRefs = RNHotspotHelper([
     () => {
+        // here you can drop in whatever action(s) you want to occur on tap of the hotspot.
+        // you'll also likely want to use local storage here and/or an api call to mark each one as seen.
         Alert.alert(null, "This button does this thing.");
     },
     () => {
